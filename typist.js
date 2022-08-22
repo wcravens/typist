@@ -1,7 +1,7 @@
 import _delay  from 'lodash.delay'
 import gaussian from 'gaussian';
 
-export const interKeyInterval = ( mu, v ) => {
+const interKeyInterval = ( mu, v ) => {
   return () => Math.abs( Math.round( gaussian( mu, v**2 ).ppf( Math.random() ) ) );
 }
 

@@ -7,6 +7,10 @@
   "author": "Wes Cravens <wcravens@cortex-it.com>",
   "license": "MIT",
   "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node typist.test.js"
+  },
   "dependencies": {
     "gaussian": "^1.2.0",
     "lodash.delay": "^4.1.1"
