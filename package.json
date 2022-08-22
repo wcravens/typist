@@ -6,5 +6,9 @@
   "repository": "https://github.com/wcravens/typist",
   "author": "Wes Cravens <wcravens@cortex-it.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "gaussian": "^1.2.0",
+    "lodash.delay": "^4.1.1"
+  }
 }
