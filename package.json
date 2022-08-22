@@ -14,5 +14,10 @@
   "dependencies": {
     "gaussian": "^1.2.0",
     "lodash.delay": "^4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^10.0.0"
   }
 }
