@@ -5,7 +5,7 @@ const interKeyInterval = ( mu, v ) => {
   return () => Math.abs( Math.round( gaussian( mu, v**2 ).ppf( Math.random() ) ) );
 }
 
-export default ( mu = 100, sigma = 90 ) => {
+export const typist = ( mu = 100, sigma = 90 ) => {
   let T = 0;
   const iki = interKeyInterval( mu, sigma );
   return ({
