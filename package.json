@@ -1,0 +1,10 @@
+{
+  "name": "typist",
+  "version": "0.0.1",
+  "description": "Event generator to simulate typing text.",
+  "main": "typist.js",
+  "repository": "https://github.com/wcravens/typist",
+  "author": "Wes Cravens <wcravens@cortex-it.com>",
+  "license": "MIT",
+  "private": true
+}
